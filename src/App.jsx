@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-const url = `https://cors-anywhere.herokuapp.com/https://animechan.xyz/api/random/anime?title=naruto`;
+const url = `https://corsanywhere.herokuapp.com/https://animechan.xyz/api/random/anime?title=naruto`;
 
 function App() {
   const [quote, setQuote] = useState("");
