@@ -1,7 +1,7 @@
 import "./App.css";
 import { useState, useEffect } from "react";
 
-const url = `https://animechan.xyz/api/random/anime?title=naruto`;
+const url = `https://animechan.xyz/api/random/`;
 
 function App() {
   const [quote, setQuote] = useState("");
